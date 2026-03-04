@@ -1,0 +1,6 @@
+.page{
+  background-image: radial-gradient(ellipse 60% 60% at 80% 30%, rgba(124,58,237,0.18) 0%, transparent 60%), 
+  radial-gradient(ellipse 40% 50% at 20% 80%, rgba(201,151,90,0.10) 0%, transparent 55%), 
+  radial-gradient(ellipse 30% 40% at 60% 90%, rgba(232,165,152,0.08) 0%, transparent 50%);
+  min-height: 100vh;
+}

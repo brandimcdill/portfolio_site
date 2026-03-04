@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    src: url("../font/CormorantGaramond-Italic-VariableFont_wght.ttf") format("woff")
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    src: url("../font/CormorantGaramond-VariableFont_wght.ttf") format("woff");
+}

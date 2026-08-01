@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Main from '../Main/Main'
 import NavBar from '../NavBar/NavBar'
 import Header from '../Header/Header'
+import Building_Card from '../../Cards/Building_Card';
 
 import './App.css'
 
@@ -17,10 +18,10 @@ export default function App() {
         <NavBar />
         <Header />
         <Routes>
-          <Route path='/' element={<Main />}></Route>
+          <Route path='/' element={<Main />}> </Route>
         </Routes>
       </div>
-     
+    
     </div>
   )
 }

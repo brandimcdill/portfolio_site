@@ -10,7 +10,7 @@ function About () {
                 <p className="section__description">I understand that the best products don't just work - they feel right. I bring that sensibility to every line of code I write, from the backend architecture to the pixel-level details of a UI.</p>
                 <p className="section__description">I'm actively growing my skills and looking for freelance clients who want a developer who cares as much about the experience as the engineering. Especially excited to work with beauty, lifestyle, and wellness brands.</p>
             </div>
-            <section className="about__list">
+            <section className="list__container">
                 <ul className="about__list">
                     <li className="list__section"> 
                         <h3 className="section__header">Focus</h3>

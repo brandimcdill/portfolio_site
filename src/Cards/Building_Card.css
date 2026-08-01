@@ -1,0 +1,6 @@
+.card__container{
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    display: flex;
+    position: relative;
+}

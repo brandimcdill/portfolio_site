@@ -1,0 +1,33 @@
+.content-showroom {
+  border-top: 1px solid var(--border-subtle);
+  padding: 6rem 0;
+}
+.showroom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 4rem;
+  align-items: center;
+}
+.showroom-left p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 1.5rem 0 2.5rem 0;
+}
+.video-placeholder-frame {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  aspect-ratio: 16 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 728px) {
+  .showroom-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

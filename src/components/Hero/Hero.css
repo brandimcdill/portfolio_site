@@ -1,0 +1,58 @@
+.hero-profile {
+  padding: 6rem 0 8rem 0;
+  max-width: 850px;
+}
+.hero-tagline {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--accent-pink);
+  margin-bottom: 1.5rem;
+}
+.hero-main-title {
+  font-family: "CormorantGaramond";
+  font-style: italic;
+  font-size: 5rem;
+  line-height: 1.05;
+  margin-bottom: 2rem;
+}
+.hero-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  color: #a49a88;
+}
+.hero-actions {
+  display: flex;
+  gap: 1.5rem;
+}
+.btn-primary,
+.btn-secondary {
+  padding: 0.8rem 1.8rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-family: var(--font-sans);
+  transition: all 0.3s ease;
+}
+.btn-primary {
+  background-color: var(--text-white);
+  color: var(--bg-dark);
+}
+.btn-primary:hover {
+  background-color: var(--accent-pink);
+  color: var(--text-white);
+}
+.btn-secondary {
+  border: 1px solid var(--border-subtle);
+  color: var(--text-white);
+}
+.btn-secondary:hover {
+  border-color: var(--accent-pink);
+  color: var(--accent-pink);
+}
+
+@media (max-width: 768px) {
+  .hero-main-title {
+    font-size: 3.2rem;
+  }
+}

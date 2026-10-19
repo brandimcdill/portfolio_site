@@ -1,0 +1,32 @@
+.contact-portal {
+  border-top: 1px solid var(--border-subtle);
+  padding: 8rem 0;
+  text-align: center;
+}
+.contact-wrapper p {
+  font-size: 1.1rem;
+  margin: 1rem 0 2rem 0;
+}
+.email-link {
+  font-family: var(--font-serif);
+  font-size: 3.5rem;
+  color: var(--text-white);
+  text-decoration: none;
+  border-bottom: 2px solid var(--border-subtle);
+  transition: all 0.3s ease;
+}
+.email-link:hover {
+  color: var(--accent-pink);
+  border-color: var(--accent-pink);
+}
+.copyright-tag {
+  margin-top: 6rem;
+  font-size: 0.8rem;
+  color: #5d5366;
+}
+
+@media screen and (max-width: 728px) {
+  .email-link {
+    font-size: 2rem;
+  }
+}

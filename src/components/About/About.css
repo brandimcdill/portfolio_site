@@ -1,7 +1,46 @@
-.about__container{
-    color: whitesmoke
+.about-manifesto {
+  border-top: 1px solid var(--border-subtle);
+  padding: 6rem 0;
+}
+.manifesto-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 4rem;
+}
+.manifesto-right p {
+  font-size: 1.1rem;
+  line-height: 1.65;
+  margin-bottom: 1.5rem;
+  color: var(--text-white);
+}
+.meta-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 4rem;
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 2rem;
+}
+.meta-metrics-grid h4 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+.meta-metrics-grid p {
+  font-size: 1rem;
+  color: var(--text-white);
+}
+.pink-text {
+  color: var(--accent-pink);
 }
 
-.about__list{
-    color: whitesmoke;
+@media screen and (max-width: 728px) {
+  .serif-title {
+    font-size: 2.8rem;
+  }
+  .manifesto-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
 }

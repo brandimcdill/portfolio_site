@@ -11,7 +11,7 @@
   font-size: 1.1rem;
   line-height: 1.65;
   margin-bottom: 1.5rem;
-  color: var(--text-white);
+  color: var(--text-cream);
 }
 .meta-metrics-grid {
   display: grid;
